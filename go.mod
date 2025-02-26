@@ -1,4 +1,4 @@
-module github.com/pepr-foundry/website-source
+module github.com/foundry-ai/website-source
 
 go 1.21.4
 
