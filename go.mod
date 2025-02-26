@@ -1,4 +1,4 @@
-module github.com/matbesancon/pepr_foundry
+module github.com/pepr-foundry/website-source
 
 go 1.21.4
 
