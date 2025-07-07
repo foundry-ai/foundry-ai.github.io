@@ -19,10 +19,10 @@ pygmentsCodefencesGuessSyntax = true
     # id = "XXX"
 
 [Params]
- homeTitle = "PEPR IA FOUNDRY" # Set a different text for the header on the home page
-  subtitle = "Subtitle"
-  mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
+  homeTitle = "PEPR IA FOUNDRY" # Set a different text for the header on the home page
+  subtitle = "Foundations of robustness and reliability in artificial intelligence"
+  mainSections = []
+  logo = "f2030_ia.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
@@ -53,48 +53,30 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params.author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "Some Person"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
-  github = "username"
+  name = "Panayotis Mertikopoulos"
+  # website = "yourwebsite.com"
+  # email = "youremail@domain.com"
+  # github = "username"
+
+# [[menu.main]]
+#     name = "Blog"
+#     url = ""
+#     weight = 1
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
-
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
+    name = "Members"
+    url = "page/members/"
     weight = 3
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
+    name = "Publications"
+    url = "page/publications/"
+    weight = 4
 
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+# [[menu.main]]
+#     identifier = "samples"
+#     name = "Samples"
+#     weight = 2
 
 [[module.imports]]
   path = "github.com/halogenica/beautifulhugo"
