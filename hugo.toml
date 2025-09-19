@@ -80,3 +80,6 @@ pygmentsCodefencesGuessSyntax = true
 
 [[module.imports]]
   path = "github.com/halogenica/beautifulhugo"
+
+[markup.goldmark.renderer]
+unsafe = true
