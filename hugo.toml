@@ -1,4 +1,4 @@
-baseurl = "https://TODO.github.io"
+baseurl = "https://foundry-ai.github.io"
 DefaultContentLanguage = "en"
 title = "PEPR IA Foundry"
 # Using theme as git submodule
