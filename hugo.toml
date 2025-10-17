@@ -21,19 +21,21 @@ pygmentsCodefencesGuessSyntax = true
 [Params]
   homeTitle = "PEPR IA FOUNDRY" # Set a different text for the header on the home page
   subtitle = "Foundations of robustness and reliability in artificial intelligence"
-  mainSections = []
   logo = "f2030_ia.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = true
+  rss = false
+  comments = false
+  readingTime = false
+  wordCount = false
   useHLJS = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
+  socialShare = false
+  delayDisqus = false
+  showRelatedPosts = false
+  mainSections = []
+  # mainSectionTitles = "News"
+
 #  cusdisID = "XXX" # Get your App id from cusdis.com
 #  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
@@ -58,10 +60,10 @@ pygmentsCodefencesGuessSyntax = true
   # email = "youremail@domain.com"
   # github = "username"
 
-# [[menu.main]]
-#     name = "Blog"
-#     url = ""
-#     weight = 1
+[[menu.main]]
+    name = "News"
+    url = "page/news/"
+    weight = 1
 
 [[menu.main]]
     name = "Members"

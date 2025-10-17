@@ -1,13 +1,13 @@
 ---
 title: Project Members
-subtitle: 
-comments: false
-date: 2025-07-01
 ---
 
 # POLARIS
 
 Panayotis Mertikopoulos
+Bary Pradelski
+Bruno Gaujal
+Jonatha Anselmi
 
 # ENS Lyon
 
