@@ -10,7 +10,7 @@ hugo
 
 In order to serve locally the website, run:
 ```
-hugolatest serve --watch
+hugo serve --watch
 ```
 and open the website at the indicated localhost port.
 
