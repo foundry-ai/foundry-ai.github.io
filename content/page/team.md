@@ -77,7 +77,7 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ### Faculty
 - [**Florence D'Alché-Buc**][Florence]
-
+- 
 ### Post-docs
 
 ### PhD students
