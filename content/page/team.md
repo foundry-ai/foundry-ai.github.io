@@ -98,6 +98,12 @@ The [MILES] team (Machine Intelligence and Learning Systems) is a joint research
 
 - [**Émilie Kaufmann**][Emilie]
 
+---
+
+## Affiliates
+- [Franck Iutzeler](https://www.iutzeler.org) (Professor, Institut Mathématique de Toulouse)
+- [Jean-Michel Loubès](https://perso.math.univ-toulouse.fr/loubes/) (Professor, Institut Mathématique de Toulouse)
+- [Jérôme Malick](https://membres-ljk.imag.fr/Jerome.Malick/miai.html) (CNRS DR, Laboratoire Jean Kuntzmann)
 
 [GHOST]: https://ghost-team.gitlabpages.inria.fr
 [Pan]: https://polaris.imag.fr/panayotis.mertikopoulos/
