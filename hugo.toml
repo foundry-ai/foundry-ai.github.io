@@ -66,8 +66,8 @@ pygmentsCodefencesGuessSyntax = true
     weight = 1
 
 [[menu.main]]
-    name = "Members"
-    url = "page/members/"
+    name = "Team"
+    url = "page/team/"
     weight = 3
 
 [[menu.main]]
