@@ -16,7 +16,7 @@ FOUNDRY is bringing together six research teams across France to advance the the
 
 ### Faculty
 
-- [**Panayotis Mertikopoulos**][Pan] (CNRS DR, LIG; project coordinator)
+- [**Panayotis Mertikopoulos**][Pan] (CNRS DR, LIG; PI)
 - [Jonatha Anselmi](https://polaris.imag.fr/jonatha.anselmi/) (Inria CR, LIG)
 - [Dorian Baudry](https://dbaudry.github.io) (Inria CR, LIG)
 - [Mathieu Besançon](https://matbesancon.xyz) (Inria CR, LIG)
@@ -44,7 +44,7 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ### Faculty
 
-- [**Aurélien Garivier**][Aurelien] (Professor, ENS de Lyon, UMPA)
+- [**Aurélien Garivier**][Aurelien] (Professor, ENS de Lyon, UMPA; team leader)
 
 ### Post-docs
 
@@ -62,8 +62,8 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ### Faculty
 
-- [**Patrick Loiseau**][Patrick] (Inria DR; part-time Professor, ENSAE Paris and École Polytechnique)
-- [Vianney Perchet](https://vianney.ai/) (Professor, ENSAE Paris, CREST; part-time Distinguished Researcher, Criteo AI Lab)
+- [**Patrick Loiseau**][Patrick] (Inria DR; Professor (part-time) at ENSAE Paris and École Polytechnique; team leader)
+- [Vianney Perchet](https://vianney.ai/) (Professor, ENSAE Paris, CREST; Principal Researcher (part-time), Criteo AI Lab)
 
 ### Post-docs
 
@@ -91,7 +91,7 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ### Faculty
 
-- [**Charlotte Laclau**][Charlotte] (Associate Professor, Télécom Paris, LTCI)
+- [**Charlotte Laclau**][Charlotte] (Associate Professor, Télécom Paris, LTCI; team leader)
 - [Florence d’Alché-Buc][Florence] (Professor, Télécom Paris, LTCI)
 - [Stephan Clémençon](https://www.telecom-paris.fr/stephan-clemencon?l=fr) (Professor, Télécom Paris, LTCI)
 - [Pavlo Mozharovskyi](https://perso.telecom-paristech.fr/mozharovskyi/) (Professor, Télécom Paris, LTCI)
@@ -116,7 +116,7 @@ The [MILES] team (Machine Intelligence and Learning Systems) is a joint research
 
 ### Faculty
 
-- [**Yann Chevaleyre**][Yann] (Professor, Université Paris Dauphine–PSL, LAMSADE)
+- [**Yann Chevaleyre**][Yann] (Professor, Université Paris Dauphine–PSL, LAMSADE; team leader)
 - [Rida Laraki](https://sites.google.com/site/ridalaraki/positions-career) (Professor, Université Mohammed VI Polytechnique; CNRS DR on secondment)
 - [Stefano Moretti](https://dauphine.psl.eu/recherche/cvtheque/profil/moretti-stefano) (CNRS DR, LAMSADE)
 - [Benjamin Negrevergne](https://www.lamsade.dauphine.fr/~bnegrevergne/webpage/) (Associate Professor, Université Paris Dauphine–PSL, LAMSADE)
@@ -140,7 +140,7 @@ The [MILES] team (Machine Intelligence and Learning Systems) is a joint research
 
 ### Faculty
 
-- [**Émilie Kaufmann**][Emilie] (CNRS DR, CRIStAL, Université de Lille)
+- [**Émilie Kaufmann**][Emilie] (CNRS DR, CRIStAL, Université de Lille; team leader)
 - [Debabrota Basu](https://debabrota-basu.github.io/) (Inria Starting Faculty, CRIStAL)
 - [Odalric-Ambrym Maillard](https://odalric-ambrym.github.io/information/page-d-exemple/index.html) (Inria CR, CRIStAL)
 - [Timothée Mathieu](https://tmathieu.gitlabpages.inria.fr/home/) (Inria CR, CRIStAL)
