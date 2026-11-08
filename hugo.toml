@@ -66,11 +66,6 @@ pygmentsCodefencesGuessSyntax = true
     weight = 1
 
 [[menu.main]]
-    name = "News"
-    url = "page/news/"
-    weight = 2
-
-[[menu.main]]
     name = "Team"
     url = "page/team/"
     weight = 3
@@ -79,6 +74,11 @@ pygmentsCodefencesGuessSyntax = true
     name = "Publications"
     url = "page/publications/"
     weight = 4
+
+[[menu.main]]
+    name = "News"
+    url = "page/news/"
+    weight = 5
 
 # [[menu.main]]
 #     identifier = "samples"
