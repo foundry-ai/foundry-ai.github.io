@@ -61,9 +61,14 @@ pygmentsCodefencesGuessSyntax = true
   # github = "username"
 
 [[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 1
+
+[[menu.main]]
     name = "News"
     url = "page/news/"
-    weight = 1
+    weight = 2
 
 [[menu.main]]
     name = "Team"

@@ -1,3 +1,7 @@
+{{- $teamURL := relref .Page "/page/team" -}}
+{{- if eq $teamURL .Page.RelPermalink -}}
+  {{- $teamURL = "" -}}
+{{- end -}}
 {{- /* Coordinates are in pixels in the 1226 × 654 source image. */ -}}
 {{- $teams := slice
   (dict "team" "MILES" "section" "miles"
@@ -45,7 +49,7 @@
       <title id="consortium-map-title">Map of FOUNDRY research teams in Grenoble, Lyon, Paris and Lille</title>
       <image href="{{ "images/Consortium-map.png" | relURL }}" width="1226" height="654" />
       {{- range $teams }}
-      <a class="consortium-map__team" href="#{{ .section }}" aria-label="{{ .team }} roster">
+      <a class="consortium-map__team" href="{{ $teamURL }}#{{ .section }}" aria-label="{{ .team }} roster">
         <rect x="{{ .label.x }}" y="{{ .label.y }}" width="{{ .label.width }}" height="48" rx="8" />
         <text x="{{ add .label.x (div .label.width 2) }}" y="{{ add .label.y 34 }}" text-anchor="middle">{{ .team }}</text>
       </a>
@@ -60,7 +64,7 @@
     <ul class="consortium-map__links" role="list" aria-label="Teams and leaders">
       {{- range $teams }}
       <li>
-        <a href="#{{ .section }}" aria-label="{{ .team }} roster">{{ .team }}</a>
+        <a href="{{ $teamURL }}#{{ .section }}" aria-label="{{ .team }} roster">{{ .team }}</a>
         <a href="{{ .profile }}" aria-label="{{ .leadLabel }} ({{ .leader }}’s website)">{{ .leadLabel }}</a>
       </li>
       {{- end }}

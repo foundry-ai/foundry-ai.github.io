@@ -37,6 +37,7 @@ hugo --gc --minify --baseURL https://foundry-ai.github.io/ \
 | --- | --- |
 | `hugo.toml` | Site settings, production URL, and main navigation |
 | `content/_index.md` | Homepage text |
+| `content/page/about.md` | Scientific abstract, consortium map, and guide to the main pages |
 | `content/page/team.md` | Consortium overview and team roster |
 | `content/page/publications.md` | Publications page with the project's HAL embed |
 | `content/page/news/` | News section index (`_index.md`) and individual news items |
@@ -44,7 +45,7 @@ hugo --gc --minify --baseURL https://foundry-ai.github.io/ \
 | `assets/` | Resources processed by Hugo, including the site logo |
 | `static/` | Files copied directly to the site, including the consortium map image and styles |
 | `layouts/partials/` | Site-level head and footer template hooks |
-| `layouts/shortcodes/consortium-map.html` | Team page map links and portrait labels |
+| `layouts/shortcodes/consortium-map.html` | Shared interactive consortium map for the About and Team pages |
 | `themes/beautifulhugo/` | Active Beautiful Hugo theme, pinned as a Git submodule |
 | `.github/workflows/hugo.yaml` | GitHub Pages build and deployment workflow |
 | `public/`, `resources/` | Generated output and resources, ignored by Git |
