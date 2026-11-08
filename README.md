@@ -80,8 +80,9 @@ uses this date to list the newest papers first.
 
 Add the year, publication type, and abbreviated venue to the top-level
 `tags` field, for example `tags: ["2026", "conference", "NeurIPS"]`.
-Use `conference`, `journal`, or `preprint` for the type. Preprints use
-the year and type tags.
+Use `conference`, `journal`, or `preprint` for papers and `book chapter`
+or `software` for those HAL records. Preprints and software without a
+venue use the year and type tags.
 
 Set `draft: true` for entries awaiting review and preview them with
 `hugo server --renderToMemory --buildDrafts`.
