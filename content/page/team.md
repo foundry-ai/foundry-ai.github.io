@@ -16,13 +16,12 @@ FOUNDRY is bringing together six research teams across France to advance the the
 
 ### Faculty
 
-- [**Panayotis Mertikopoulos**][Pan] (CNRS DR, LIG; PI)
-- [Jonatha Anselmi](https://polaris.imag.fr/jonatha.anselmi/) (Inria CR, LIG)
-- [Dorian Baudry](https://dbaudry.github.io) (Inria CR, LIG)
-- [Mathieu Besançon](https://matbesancon.xyz) (Inria CR, LIG)
-- [Bruno Gaujal](https://polaris.imag.fr/bruno.gaujal/projects.html) (Inria DR, LIG)
-- [Jérôme Malick](https://membres-ljk.imag.fr/Jerome.Malick/miai.html) (CNRS DR, Laboratoire Jean Kuntzmann)
-- [Bary Pradelski](https://barypradelski.com/r/) (CNRS CR, LIG and Maison Française d’Oxford)
+- [**Panayotis Mertikopoulos**][Pan] (CNRS DR; principal investigator)
+- [Jonatha Anselmi](https://polaris.imag.fr/jonatha.anselmi/) (Inria CR)
+- [Dorian Baudry](https://dbaudry.github.io) (Inria CR)
+- [Mathieu Besançon](https://matbesancon.xyz) (Inria CR)
+- [Bruno Gaujal](https://polaris.imag.fr/bruno.gaujal/projects.html) (Inria DR)
+- [Bary Pradelski](https://barypradelski.com/r/) (CNRS CR)
 
 ### Post-docs
 
@@ -44,7 +43,7 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ### Faculty
 
-- [**Aurélien Garivier**][Aurelien] (Professor, ENS de Lyon, UMPA; team leader)
+- [**Aurélien Garivier**][Aurelien] (Professor, ENS Lyon; team leader)
 
 ### Post-docs
 
@@ -62,8 +61,8 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ### Faculty
 
-- [**Patrick Loiseau**][Patrick] (Inria DR; Professor (part-time) at ENSAE Paris and École Polytechnique; team leader)
-- [Vianney Perchet](https://vianney.ai/) (Professor, ENSAE Paris, CREST; Principal Researcher (part-time), Criteo AI Lab)
+- [**Patrick Loiseau**][Patrick] (Inria DR; Professor (part-time), ENSAE Paris and École Polytechnique; team leader)
+- [Vianney Perchet](https://vianney.ai/) (Professor, ENSAE Paris; Principal Researcher (part-time), Criteo AI Lab)
 
 ### Post-docs
 
@@ -91,10 +90,10 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ### Faculty
 
-- [**Charlotte Laclau**][Charlotte] (Associate Professor, Télécom Paris, LTCI; team leader)
-- [Florence d’Alché-Buc][Florence] (Professor, Télécom Paris, LTCI)
-- [Stephan Clémençon](https://www.telecom-paris.fr/stephan-clemencon?l=fr) (Professor, Télécom Paris, LTCI)
-- [Pavlo Mozharovskyi](https://perso.telecom-paristech.fr/mozharovskyi/) (Professor, Télécom Paris, LTCI)
+- [**Charlotte Laclau**][Charlotte] (Associate Professor, Télécom Paris; team leader)
+- [Florence d’Alché-Buc][Florence] (Professor, Télécom Paris)
+- [Stephan Clémençon](https://www.telecom-paris.fr/stephan-clemencon?l=fr) (Professor, Télécom Paris)
+- [Pavlo Mozharovskyi](https://perso.telecom-paristech.fr/mozharovskyi/) (Professor, Télécom Paris)
 
 ### Post-docs
 
@@ -116,10 +115,10 @@ The [MILES] team (Machine Intelligence and Learning Systems) is a joint research
 
 ### Faculty
 
-- [**Yann Chevaleyre**][Yann] (Professor, Université Paris Dauphine–PSL, LAMSADE; team leader)
-- [Rida Laraki](https://sites.google.com/site/ridalaraki/positions-career) (Professor, Université Mohammed VI Polytechnique; CNRS DR on secondment)
-- [Stefano Moretti](https://dauphine.psl.eu/recherche/cvtheque/profil/moretti-stefano) (CNRS DR, LAMSADE)
-- [Benjamin Negrevergne](https://www.lamsade.dauphine.fr/~bnegrevergne/webpage/) (Associate Professor, Université Paris Dauphine–PSL, LAMSADE)
+- [**Yann Chevaleyre**][Yann] (Professor, Univ. Paris Dauphine–PSL; team leader)
+- [Rida Laraki](https://sites.google.com/site/ridalaraki/positions-career) (CNRS DR; Professor, UM6P)
+- [Stefano Moretti](https://dauphine.psl.eu/recherche/cvtheque/profil/moretti-stefano) (CNRS DR)
+- [Benjamin Negrevergne](https://www.lamsade.dauphine.fr/~bnegrevergne/webpage/) (Assoc. Professor, Univ. Paris Dauphine–PSL)
 
 ### Post-docs
 
@@ -140,10 +139,10 @@ The [MILES] team (Machine Intelligence and Learning Systems) is a joint research
 
 ### Faculty
 
-- [**Émilie Kaufmann**][Emilie] (CNRS DR, CRIStAL, Université de Lille; team leader)
-- [Debabrota Basu](https://debabrota-basu.github.io/) (Inria Starting Faculty, CRIStAL)
-- [Odalric-Ambrym Maillard](https://odalric-ambrym.github.io/information/page-d-exemple/index.html) (Inria CR, CRIStAL)
-- [Timothée Mathieu](https://tmathieu.gitlabpages.inria.fr/home/) (Inria CR, CRIStAL)
+- [**Émilie Kaufmann**][Emilie] (CNRS DR; team leader)
+- [Debabrota Basu](https://debabrota-basu.github.io/) (Inria Starting Faculty)
+- [Odalric-Ambrym Maillard](https://odalric-ambrym.github.io/information/page-d-exemple/index.html) (Inria CR)
+- [Timothée Mathieu](https://tmathieu.gitlabpages.inria.fr/home/) (Inria CR)
 
 ### Post-docs
 
@@ -159,9 +158,10 @@ The [MILES] team (Machine Intelligence and Learning Systems) is a joint research
 
 ---
 
-## Affiliates
+## Affiliate Members
 
-- [Franck Iutzeler](https://www.iutzeler.org) (Professor, Université de Toulouse, Institut de Mathématiques de Toulouse)
+- [Franck Iutzeler](https://www.iutzeler.org) (Professor, Univ. Toulouse)
+- [Jérôme Malick](https://membres-ljk.imag.fr/Jerome.Malick/miai.html) (CNRS DR, Laboratoire Jean Kuntzmann)
 - [Jean-Michel Loubès](https://www.tse-fr.eu/people/jean-michel-loubes) (Inria DR, Institut de Mathématiques de Toulouse)
 
 [GHOST]: https://ghost-team.gitlabpages.inria.fr
