@@ -39,12 +39,14 @@ hugo --gc --minify --baseURL https://foundry-ai.github.io/ \
 | `content/_index.md` | Homepage text |
 | `content/page/about.md` | Scientific abstract, consortium map, and guide to the main pages |
 | `content/page/team.md` | Consortium overview and team roster |
-| `content/page/publications.md` | Publications page with the project's HAL embed |
+| `content/page/publications/` | Publications index (`_index.md`) with the HAL embed and one Markdown file per paper |
 | `content/page/news/` | News section index (`_index.md`) and individual news items |
 | `archetypes/default.md` | Front matter template for new pages |
 | `assets/` | Resources processed by Hugo, including the site logo |
 | `static/` | Files copied directly to the site, including the consortium map image and styles |
-| `layouts/partials/` | Site-level head and footer template hooks |
+| `layouts/partials/` | Site-level head and footer hooks and shared publication markup |
+| `layouts/page/publications/` | Templates for the publication list and individual paper pages |
+| `layouts/tags/term.html` | Template for listings such as `/tags/conference/` |
 | `layouts/shortcodes/consortium-map.html` | Shared interactive consortium map for the About and Team pages |
 | `themes/beautifulhugo/` | Active Beautiful Hugo theme, pinned as a Git submodule |
 | `.github/workflows/hugo.yaml` | GitHub Pages build and deployment workflow |
@@ -65,6 +67,24 @@ hugo new content page/news/my-update.md
 The archetype marks new pages as drafts. Set the draft flag to `false`
 when the page is ready to publish. Add a `[[menu.main]]` entry in
 `hugo.toml` if the page belongs in the main navigation.
+
+### Adding publications
+
+Add a Markdown file under `content/page/publications/` named after the
+paper's HAL ID, for example `hal-05805492.md`. Set `title` in front matter
+and put the abstract in the Markdown body. Under `params`, set `authors`
+as a list in citation order, `venue`, `publication_date`, `hal_url`, and
+`arxiv_url` when available. Use a quoted ISO date such as `"2026-12-09"`,
+`"2026-12"`, or `"2026"` to match the precision of the source. The index
+uses this date to list the newest papers first.
+
+Add the year, publication type, and abbreviated venue to the top-level
+`tags` field, for example `tags: ["2026", "conference", "NeurIPS"]`.
+Use `conference`, `journal`, or `preprint` for the type. Preprints use
+the year and type tags.
+
+Set `draft: true` for entries awaiting review and preview them with
+`hugo server --renderToMemory --buildDrafts`.
 
 ## Publishing
 

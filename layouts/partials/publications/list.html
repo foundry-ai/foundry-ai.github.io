@@ -1,0 +1,12 @@
+<ul class="list-unstyled" role="list" aria-label="Publication pages">
+  {{ range sort . "Params.publication_date" "desc" }}
+    <li>
+      <h2 class="h3"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{ if .Params.authors }}
+        <p>{{ delimit .Params.authors ", " }}<br>
+          <em>{{ .Params.venue }}</em></p>
+      {{ end }}
+      {{ partial "publications/tags.html" . }}
+    </li>
+  {{ end }}
+</ul>

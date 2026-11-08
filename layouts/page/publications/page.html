@@ -1,0 +1,25 @@
+{{ define "header" }}{{/* The article includes the paper heading. */}}{{ "" }}{{ end }}
+
+{{ define "main" }}
+<div class="container main-content" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article class="blog-post">
+        <p><a href="{{ .Parent.RelPermalink }}">&larr; Publications</a></p>
+        <h1>{{ .Title }}</h1>
+        <p>{{ delimit .Params.authors ", " }}<br>
+          <em>{{ .Params.venue }}</em></p>
+        <ul class="list-inline" role="list" aria-label="Publication links">
+          <li><a class="btn btn-default" href="{{ .Params.hal_url }}">HAL record</a></li>
+          {{ with .Params.arxiv_url }}
+            <li><a class="btn btn-default" href="{{ . }}">arXiv</a></li>
+          {{ end }}
+        </ul>
+        <h2>Abstract</h2>
+        {{ .Content }}
+        {{ partial "publications/tags.html" . }}
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

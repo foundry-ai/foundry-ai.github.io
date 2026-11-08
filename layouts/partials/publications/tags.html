@@ -1,0 +1,7 @@
+{{ with .GetTerms "tags" }}
+  <ul class="list-inline" role="list" aria-label="Publication tags">
+    {{ range . }}
+      <li><a class="btn btn-default btn-sm" href="{{ .RelPermalink }}">{{ .Data.Term }}</a></li>
+    {{ end }}
+  </ul>
+{{ end }}
