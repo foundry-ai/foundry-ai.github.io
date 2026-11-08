@@ -19,3 +19,8 @@ Or you can delete these file if you don't need it.
 {{ if .HasShortcode "consortium-map" }}
   <link rel="stylesheet" href="{{ "css/consortium-map.css" | relURL }}">
 {{ end }}
+{{ $isPublication := or (eq .Path "/page/publications") (strings.HasPrefix .Path "/page/publications/") }}
+{{ $isTag := or (eq .Path "/tags") (strings.HasPrefix .Path "/tags/") }}
+{{ if or $isPublication $isTag }}
+  <link rel="stylesheet" href="{{ "css/publications.css" | relURL }}">
+{{ end }}

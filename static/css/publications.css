@@ -1,0 +1,29 @@
+.container[role="main"] {
+  font-size: 16px;
+}
+
+.container[role="main"] h1 {
+  font-size: 30px;
+}
+
+.container[role="main"] h2 {
+  font-size: 25px;
+}
+
+.container[role="main"] .h3 {
+  font-size: 20px;
+}
+
+.container[role="main"] .panel-title,
+.container[role="main"] .list-group-item {
+  font-size: 14px;
+}
+
+.container[role="main"] .btn {
+  font-size: 12px;
+}
+
+.container[role="main"] .btn-sm,
+.container[role="main"] .badge {
+  font-size: 11px;
+}
