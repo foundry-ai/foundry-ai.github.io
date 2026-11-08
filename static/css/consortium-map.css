@@ -1,0 +1,124 @@
+#consortium-map {
+  margin: 24px 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.consortium-map__frame {
+  background: #eef5fb;
+  border: 1px solid #cbddea;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.consortium-map__graphic {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.consortium-map__graphic a {
+  cursor: pointer;
+}
+
+.consortium-map__graphic a,
+.consortium-map__links a {
+  text-decoration: none;
+}
+
+.consortium-map__team rect {
+  fill: #153b60;
+}
+
+.consortium-map__team text {
+  fill: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.consortium-map__team:hover rect {
+  fill: #235e8b;
+}
+
+.consortium-map__leader rect {
+  fill: transparent;
+}
+
+.consortium-map__leader:not(:hover):not(:focus) {
+  color: #153b60;
+}
+
+.consortium-map__leader text {
+  fill: currentColor;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.consortium-map__leader:hover rect,
+.consortium-map__graphic a:focus-visible rect {
+  stroke: #07689f;
+  stroke-width: 3px;
+  vector-effect: non-scaling-stroke;
+}
+
+#consortium-map figcaption {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.consortium-map__links {
+  display: none;
+}
+
+/* Keep the target heading visible below the fixed navigation bar. */
+.blog-post h2[id] {
+  scroll-margin-top: 110px;
+}
+
+@media (max-width: 767px) {
+  .consortium-map__frame {
+    padding: 6px;
+  }
+
+  .consortium-map__leader text {
+    display: none;
+  }
+
+  .consortium-map__links {
+    display: block;
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+
+  .consortium-map__links li {
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr);
+    border-bottom: 1px solid rgba(125, 125, 125, 0.35);
+  }
+
+  .consortium-map__links a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 4px 8px;
+  }
+
+  .consortium-map__links a:not(:hover):not(:focus) {
+    color: #145480;
+  }
+
+  .consortium-map__links a:first-child {
+    font-weight: 700;
+  }
+
+  .blog-post h2[id] {
+    scroll-margin-top: 66px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .consortium-map__links a:not(:hover):not(:focus) {
+    color: #8dcaff;
+  }
+}

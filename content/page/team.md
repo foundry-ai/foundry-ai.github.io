@@ -2,29 +2,15 @@
 title: The Team
 ---
 
-<div style="width: 500px; max-width: 100%; margin: 20px auto;">
-  <img src="/images/Consortium.png" alt="The FOUNDRY consortium" style="
-      width: 100%;
-      display: block;
-      -webkit-mask-image: radial-gradient(farthest-side at 50% 50%, rgba(0,0,0,1) 97%, rgba(0,0,0,0) 100%);
-      -webkit-mask-repeat: no-repeat;
-      -webkit-mask-position: center;
-      -webkit-mask-size: cover;
-      mask-image: radial-gradient(farthest-side at 50% 50%, rgba(0,0,0,1) 97%, rgba(0,0,0,0) 100%);
-      mask-repeat: no-repeat;
-      mask-position: center;
-      mask-size: cover;
-  ">
-</div>
-
-
 FOUNDRY is bringing together six research teams across France to advance the theoretical foundations of robustness and reliability in AI. Spanning Grenoble, Lyon, Paris, and Lille, the consortium forms a cohesive national network that combines expertise in machine learning, optimization, game theory, statistics, and information theory.
 
-<!--<img src="/images/Consortium.png" alt="The FOUNDRY consortium" width="600">
--->
+<!--more-->
+
+{{< consortium-map >}}
+
 ---
 
-## GHOST
+## GHOST {#ghost}
 
 [GHOST] is a joint CNRS/Inria team based at the Laboratoire d'Informatique de Grenoble, and its activities in FOUNDRY are headed by Panayotis Mertikopoulos. It is bringing together expertise on game theory, optimization, and reinforcement learning, with a particular focus on multi-agent learning, Markov decision processes, mechanism design, and adaptive optimization.
 
@@ -52,7 +38,7 @@ FOUNDRY is bringing together six research teams across France to advance the the
 
 ---
 
-## ENS Lyon
+## ENS Lyon {#ens-lyon}
 
 Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses on stochastic modeling, sequential statistics, and reinforcement learning. In recent years, the team's most impactful contributions include an original approach to the study of the complexity of noisy optimization and other sequential decision problems as well as (multi-)quantile estimation.
 
@@ -70,7 +56,7 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ---
 
-## FAIRPLAY
+## FAIRPLAY {#fairplay}
 
 [FAIRPLAY] is a joint Inria-Criteo-ENSAE team based in Paris, and led by [Patrick Loiseau][Patrick]. It aims to develop and analyze algorithms that learn alongside users, focusing in particular on creating procedures capable of performing traditional learning tasks—such as prediction, decision-making, and explanation—when the data is generated or supplied by strategic agents or in the presence of competing learning agents. The team's work emphasizes societal and ethical considerations, particularly regarding the fairness and privacy of the users involved.
 
@@ -99,15 +85,15 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ---
 
-## LTCI
+## LTCI {#ltci}
 
-[LTCI] is the Information and Communications Laboratory of Télécom Paris. It is based in Paris, and headed by [Florence d’Alché-Buc][Florence]. It focuses on statistical and trustworthy machine learning, with expertise in Monte Carlo methods, extreme value theory, and learning from complex and structured data.
+[LTCI] is the Information and Communications Laboratory of Télécom Paris. It is based in Paris, and [Charlotte Laclau][Charlotte] leads its work in FOUNDRY. It focuses on statistical and trustworthy machine learning, with expertise in Monte Carlo methods, extreme value theory, and learning from complex and structured data.
 
 ### Faculty
 
-- [**Florence d’Alché-Buc**][Florence] (Professor, Télécom Paris, LTCI)
+- [**Charlotte Laclau**][Charlotte] (Associate Professor, Télécom Paris, LTCI)
+- [Florence d’Alché-Buc][Florence] (Professor, Télécom Paris, LTCI)
 - [Stephan Clémençon](https://www.telecom-paris.fr/stephan-clemencon?l=fr) (Professor, Télécom Paris, LTCI)
-- [Charlotte Laclau](https://laclauc.github.io/) (Associate Professor, Télécom Paris, LTCI)
 - [Pavlo Mozharovskyi](https://perso.telecom-paristech.fr/mozharovskyi/) (Professor, Télécom Paris, LTCI)
 
 ### Post-docs
@@ -124,7 +110,7 @@ Based in Lyon, the [ENSL] team is headed by Aurélien Garivier, and it focuses o
 
 ---
 
-## MILES
+## MILES {#miles}
 
 The [MILES] team (Machine Intelligence and Learning Systems) is a joint research team shosted by the LAMSADE research unit at Université Paris Dauphine-PSL, and headed by [Yann Chevaleyre][Yann]. It focuses on adversarial machine learning models, game theory, and computational social choice, and it aim at making significant advances in the field of machine learning and data science, in terms of both theoretical foundations and concrete applications.
 
@@ -148,7 +134,7 @@ The [MILES] team (Machine Intelligence and Learning Systems) is a joint research
 
 ---
 
-## SCOOL
+## SCOOL {#scool}
 
 [SCOOL] is an Inria project-team based in Lille, and headed by Émilie Kaufmann. The team's main research topic is the study of sequential decision making under uncertainty, and most of its activities are related to either bandit problems, or reinforcement learning. Through collaborations, the team is working on their application in various fields, from medicine and agriculture, to ecology and sustainable development.
 
@@ -188,6 +174,7 @@ The [MILES] team (Machine Intelligence and Learning Systems) is a joint research
 [Patrick]: https://patrickloiseau.github.io
 
 [LTCI]: https://www.telecom-paris.fr/en/research/labs/information-processing-ltci
+[Charlotte]: https://laclauc.github.io/
 [Florence]: https://perso.telecom-paristech.fr/fdalche/
 
 [MILES]: https://www.lamsade.dauphine.fr/wp/miles/

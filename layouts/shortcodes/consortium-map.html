@@ -1,0 +1,70 @@
+{{- /* Coordinates are in pixels in the 1226 × 654 source image. */ -}}
+{{- $teams := slice
+  (dict "team" "MILES" "section" "miles"
+    "leader" "Yann Chevaleyre" "leadLabel" "Lead: Y. Chevaleyre"
+    "profile" "https://www.lamsade.dauphine.fr/~ychevaleyre/"
+    "label" (dict "x" 183 "y" 53 "width" 100)
+    "portrait" (dict "x" 83 "y" 60 "width" 91 "height" 114)
+    "name" (dict "x" 194 "y" 127 "align" "start"))
+  (dict "team" "SCOOL" "section" "scool"
+    "leader" "Émilie Kaufmann" "leadLabel" "Lead: É. Kaufmann"
+    "profile" "https://emiliekaufmann.github.io"
+    "label" (dict "x" 979 "y" 102 "width" 115)
+    "portrait" (dict "x" 1099 "y" 110 "width" 89 "height" 113)
+    "name" (dict "x" 1118 "y" 247 "align" "end"))
+  (dict "team" "LTCI" "section" "ltci"
+    "leader" "Charlotte Laclau" "leadLabel" "Lead: C. Laclau"
+    "profile" "https://laclauc.github.io/"
+    "label" (dict "x" 100 "y" 297 "width" 76)
+    "portrait" (dict "x" 1 "y" 306 "width" 91 "height" 113)
+    "name" (dict "x" 110 "y" 374 "align" "start"))
+  (dict "team" "ENSL" "section" "ens-lyon"
+    "leader" "Aurélien Garivier" "leadLabel" "Lead: A. Garivier"
+    "profile" "https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html"
+    "label" (dict "x" 1042 "y" 287 "width" 88)
+    "portrait" (dict "x" 1135 "y" 296 "width" 90 "height" 114)
+    "name" (dict "x" 1119 "y" 374 "align" "end"))
+  (dict "team" "FAIRPLAY" "section" "fairplay"
+    "leader" "Patrick Loiseau" "leadLabel" "Lead: P. Loiseau"
+    "profile" "https://patrickloiseau.github.io"
+    "label" (dict "x" 132 "y" 475 "width" 146)
+    "portrait" (dict "x" 33 "y" 479 "width" 90 "height" 114)
+    "name" (dict "x" 141 "y" 548 "align" "start"))
+  (dict "team" "GHOST" "section" "ghost"
+    "leader" "Panayotis Mertikopoulos" "leadLabel" "Lead: P. Mertikopoulos"
+    "profile" "https://polaris.imag.fr/panayotis.mertikopoulos/"
+    "label" (dict "x" 1015 "y" 493 "width" 114)
+    "portrait" (dict "x" 1137 "y" 499 "width" 88 "height" 113)
+    "name" (dict "x" 1120 "y" 607 "align" "end"))
+-}}
+{{- /* Beautiful Hugo checks for this exact class before attaching its photo viewer. */ -}}
+<figure id="consortium-map" class="no-photoswipe">
+  <div class="consortium-map__frame">
+    <svg class="consortium-map__graphic" viewBox="0 0 1226 654" width="1226" height="654"
+        xmlns="http://www.w3.org/2000/svg" role="group" aria-labelledby="consortium-map-title">
+      <title id="consortium-map-title">Map of FOUNDRY research teams in Grenoble, Lyon, Paris and Lille</title>
+      <image href="{{ "images/Consortium-map.png" | relURL }}" width="1226" height="654" />
+      {{- range $teams }}
+      <a class="consortium-map__team" href="#{{ .section }}" aria-label="{{ .team }} roster">
+        <rect x="{{ .label.x }}" y="{{ .label.y }}" width="{{ .label.width }}" height="48" rx="8" />
+        <text x="{{ add .label.x (div .label.width 2) }}" y="{{ add .label.y 34 }}" text-anchor="middle">{{ .team }}</text>
+      </a>
+      <a class="consortium-map__leader" href="{{ .profile }}" aria-label="{{ .leadLabel }} ({{ .leader }}’s website)">
+        <rect x="{{ .portrait.x }}" y="{{ .portrait.y }}" width="{{ .portrait.width }}" height="{{ .portrait.height }}" />
+        <text x="{{ .name.x }}" y="{{ .name.y }}" text-anchor="{{ .name.align }}">{{ .leadLabel }}</text>
+      </a>
+      {{- end }}
+    </svg>
+  </div>
+  <figcaption>
+    Select a team to jump to its roster. Select a leader’s name or portrait to visit their website.
+    <ul class="consortium-map__links" role="list" aria-label="Teams and leaders">
+      {{- range $teams }}
+      <li>
+        <a href="#{{ .section }}" aria-label="{{ .team }} roster">{{ .team }}</a>
+        <a href="{{ .profile }}" aria-label="{{ .leadLabel }} ({{ .leader }}’s website)">{{ .leadLabel }}</a>
+      </li>
+      {{- end }}
+    </ul>
+  </figcaption>
+</figure>
