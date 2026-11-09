@@ -82,7 +82,11 @@ Add the year, publication type, and abbreviated venue to the top-level
 `tags` field, for example `tags: ["2026", "conference", "NeurIPS"]`.
 Use `conference`, `journal`, or `preprint` for papers and `book chapter`
 or `software` for those HAL records. Preprints and software without a
-venue use the year and type tags.
+venue use the year and type tags. Append each team represented in the
+author list once, using the six team names from the
+[Team roster](content/page/team.md). Count affiliate members as `GHOST`.
+For publication tags, use `GHOST` for Victor Boone, `FAIRPLAY` for
+Jung-Hun Kim and Hugo Richard, and `SCOOL` for Rémy Degenne.
 
 Set `draft: true` for entries awaiting review and preview them with
 `hugo server --renderToMemory --buildDrafts`.
