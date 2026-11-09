@@ -2,7 +2,7 @@
 title: About FOUNDRY
 ---
 
-***Can artificial intelligence be relied upon?***
+<p style="text-align: center; font-size: 1.2em;"><em><strong>Can artificial intelligence be relied upon?</strong></em></p>
 
 This question is at the heart of societal concerns regarding the widespread use of AI, and for good reason. On the one hand, the striking successes of AI cannot be questioned or ignored: we have very recently witnessed elaborate AI models breaking new ground and achieving feats previously thought impossible, from resolving open math problems of Clay Millennium fame, to protein folding and running entire codebases. At the same time, the very systems that ushered in the deep learning revolution can—and often *do*—fail in spectacular and unforeseen ways, from single-pixel attacks fooling deep networks to AI systems breaking out of their guardrails and operating in a completely unpredictable manner. And while it may not be critical if a movie recommendation or an automatic translation is not that accurate, the results can be downright devastating if an AI algorithm performs poorly in an autonomous car, an operating room, a power management facility, or other high-stakes application.
 
