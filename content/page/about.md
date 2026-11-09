@@ -1,5 +1,5 @@
 ---
-title: About
+title: About FOUNDRY
 ---
 
 ***Can artificial intelligence be relied upon?***
