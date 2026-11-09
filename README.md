@@ -72,10 +72,16 @@ when the page is ready to publish. Add a `[[menu.main]]` entry in
 ### Adding publications
 
 Add a Markdown file under `content/page/publications/` named after the
-paper's HAL ID, for example `hal-05805492.md`. Set `title` in front matter
-and put the abstract in the Markdown body. Under `params`, set `authors`
-as a list in citation order, `venue`, `publication_date`, `hal_url`, and
-`arxiv_url` when available. Use a quoted ISO date such as `"2026-12-09"`,
+paper's HAL ID, for example `hal-05805492.md`. If a HAL ID is unavailable,
+use the arXiv ID with an `arxiv-` prefix or a short title slug. Set `title`
+in sentence case in the front matter, capitalizing the first word after
+a colon. Put the abstract in the Markdown body. For a summary of the
+paper, set `abstract_heading: "Summary"` under `params`.
+
+Under `params`, set `authors` as a list in citation order, `venue`, and
+`publication_date`. Add `hal_url`, `arxiv_url`, and `publication_url`
+for verified HAL, arXiv, and publisher or conference records, respectively.
+Use a quoted ISO date such as `"2026-12-09"`,
 `"2026-12"`, or `"2026"` to match the precision of the source. The index
 uses this date to list the newest papers first.
 
