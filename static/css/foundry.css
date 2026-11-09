@@ -1,7 +1,5 @@
 /* Reduce the theme's header sizes by 20% at each viewport size. */
-.intro-header .page-heading h1,
-.intro-header .tags-heading h1,
-.intro-header .categories-heading h1 {
+.header-section .intro-header h1 {
   font-size: 40px;
 }
 
@@ -16,9 +14,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .intro-header .page-heading h1,
-  .intro-header .tags-heading h1,
-  .intro-header .categories-heading h1 {
+  .header-section .intro-header h1 {
     font-size: 64px;
   }
 
