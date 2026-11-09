@@ -6,7 +6,7 @@
         <p><a href="{{ .RelPermalink }}">&larr; Publications</a></p>
       {{ end }}
       {{ .Content }}
-      {{ partial "publications/list.html" .RegularPages }}
+      {{ partial "publications/list.html" (dict "pages" .RegularPages) }}
     </div>
   </div>
 </div>

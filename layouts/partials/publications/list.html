@@ -1,14 +1,17 @@
 {{/* Prefix the sort key so Hugo compares year-only dates as strings. */}}
 {{ $entries := slice }}
-{{ range . }}
+{{ range .pages }}
   {{ $date := .Params.publication_date | default "" }}
   {{ $entries = $entries | append (dict "sortDate" (printf "date:%v" $date) "paper" .) }}
 {{ end }}
-<ul class="list-unstyled" role="list" aria-label="Publication pages">
-  {{ range sort $entries "sortDate" "desc" }}
-    {{ $paper := .paper }}
+<ul class="list-unstyled{{ if .numbered }} publications-numbered{{ end }}" role="list" aria-label="Publication pages">
+  {{ range $index, $entry := sort $entries "sortDate" "desc" }}
+    {{ $paper := $entry.paper }}
     <li>
-      <h2 class="h3"><a href="{{ $paper.RelPermalink }}">{{ $paper.Title }}</a></h2>
+      <h2 class="h3">
+        {{ if $.numbered }}<span class="publication-number">[{{ sub (len $entries) $index }}]</span>{{ end }}
+        <a href="{{ $paper.RelPermalink }}">{{ $paper.Title }}</a>
+      </h2>
       {{ if $paper.Params.authors }}
         <p>{{ delimit $paper.Params.authors ", " }}<br>
           <em>{{ $paper.Params.venue }}</em></p>

@@ -14,6 +14,20 @@
   font-size: 20px;
 }
 
+.publications-numbered {
+  padding-inline-start: 3.5em;
+}
+
+.publications-numbered .h3 {
+  position: relative;
+}
+
+.publication-number {
+  position: absolute;
+  inset-inline-end: calc(100% + 0.5em);
+  white-space: nowrap;
+}
+
 .container[role="main"] .panel-title,
 .container[role="main"] .list-group-item {
   font-size: 14px;

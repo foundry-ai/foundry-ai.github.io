@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       {{ with .RegularPages }}
-        {{ partial "publications/list.html" . }}
+        {{ partial "publications/list.html" (dict "pages" . "numbered" true) }}
         <hr>
       {{ end }}
       <article class="blog-post">
