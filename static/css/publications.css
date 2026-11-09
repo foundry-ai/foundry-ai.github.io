@@ -14,6 +14,10 @@
   font-size: 20px;
 }
 
+.publication-intro {
+  overflow-wrap: anywhere;
+}
+
 .publications-numbered {
   padding-inline-start: 3.5em;
 }
