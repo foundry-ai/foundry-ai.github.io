@@ -39,7 +39,7 @@ hugo --gc --minify --baseURL https://foundry-ai.github.io/ \
 | `content/_index.md` | Homepage text |
 | `content/page/about.md` | Scientific abstract, consortium map, and guide to the main pages |
 | `content/page/team.md` | Consortium overview and team roster |
-| `content/page/publications/` | Publications index (`_index.md`) with the HAL embed and one Markdown file per paper |
+| `content/page/publications/` | Publications index (`_index.md`) with introductory text and a HAL link, plus one Markdown file per paper |
 | `content/page/news/` | News section index (`_index.md`) and individual news items |
 | `archetypes/default.md` | Front matter template for new pages |
 | `assets/` | Resources processed by Hugo, including the site logo |
