@@ -1,5 +1,5 @@
 ---
-title: The Team
+title: The FOUNDRY Team
 ---
 
 FOUNDRY is bringing together six research teams across France to advance the theoretical foundations of robustness and reliability in AI. Spanning Grenoble, Lyon, Paris, and Lille, the consortium forms a cohesive national network that combines expertise in machine learning, optimization, game theory, statistics, and information theory.
