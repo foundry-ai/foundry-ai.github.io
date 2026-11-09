@@ -44,6 +44,7 @@ hugo --gc --minify --baseURL https://foundry-ai.github.io/ \
 | `archetypes/default.md` | Front matter template for new pages |
 | `assets/` | Resources processed by Hugo, including the site logo |
 | `static/` | Files copied directly to the site, including the consortium map image and styles |
+| `static/css/headings.css` | Site-wide page title and subtitle formatting |
 | `layouts/partials/` | Site-level head and footer hooks and shared publication markup |
 | `layouts/page/publications/` | Templates for the publication list and individual paper pages |
 | `layouts/tags/term.html` | Template for listings such as `/tags/conference/` |

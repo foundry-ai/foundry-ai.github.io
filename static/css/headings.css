@@ -1,0 +1,32 @@
+/* Reduce the theme's header sizes by 20% at each viewport size. */
+.intro-header .page-heading h1,
+.intro-header .tags-heading h1,
+.intro-header .categories-heading h1 {
+  font-size: 40px;
+}
+
+.intro-header .post-heading h1 {
+  font-size: 28px;
+}
+
+.header-section .intro-header .page-heading .page-subheading,
+.header-section .intro-header .post-heading .post-subheading {
+  font-size: 21.6px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro-header .page-heading h1,
+  .intro-header .tags-heading h1,
+  .intro-header .categories-heading h1 {
+    font-size: 64px;
+  }
+
+  .intro-header .post-heading h1 {
+    font-size: 40px;
+  }
+}
+
+.container[role="main"] .publication-title {
+  font-size: 24px;
+}

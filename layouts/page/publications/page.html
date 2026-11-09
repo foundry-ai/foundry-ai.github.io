@@ -6,7 +6,7 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article class="blog-post">
         <p><a href="{{ .Parent.RelPermalink }}">&larr; Publications</a></p>
-        <h1>{{ .Title }}</h1>
+        <h1 class="publication-title">{{ .Title }}</h1>
         <p>{{ delimit .Params.authors ", " }}<br>
           <em>{{ .Params.venue }}</em></p>
         <ul class="list-inline" role="list" aria-label="Publication links">
