@@ -28,6 +28,24 @@
   white-space: nowrap;
 }
 
+.publication-figure-panels {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75em;
+  margin-top: 1.5em;
+}
+
+.publication-figure-panels img {
+  min-width: 0;
+  height: auto;
+  margin: 0;
+}
+
+.publication-figure-panels + figcaption {
+  margin: 0.75em 0 1.5em;
+}
+
 .container[role="main"] .panel-title,
 .container[role="main"] .list-group-item {
   font-size: 14px;

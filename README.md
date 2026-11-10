@@ -78,6 +78,11 @@ in sentence case in the front matter, capitalizing the first word after
 a colon. Put the abstract in the Markdown body. For a summary of the
 paper, set `abstract_heading: "Summary"` under `params`.
 
+Store publication figure images under `static/images/publications/`. Add
+the figure after the abstract, using `<figure class="no-photoswipe">` and
+a `publication-figure-panels` div to group the images. Give each image
+descriptive alt text and put the shared caption in `<figcaption>`.
+
 Under `params`, set `authors` as a list in citation order, `venue`, and
 `publication_date`. Add `hal_url`, `arxiv_url`, and `publication_url`
 for verified HAL, arXiv, and publisher or conference records, respectively.
