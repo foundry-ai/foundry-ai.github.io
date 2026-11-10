@@ -17,11 +17,9 @@ params:
 
 The authors construct prediction sets for graph-valued regression using a transport distance that compares graphs regardless of node order. A conformal quantile method adapts the sets to each input while providing a distribution-free coverage guarantee. The paper evaluates the approach on synthetic graphs and a molecule identification task.
 
-<!-- arXiv source https://arxiv.org/src/2603.02460v5, images/conformalset.pdf. -->
 <figure class="no-photoswipe">
-  <div class="publication-figure-panels">
-    <img src="/images/publications/conformal-metabolite-prediction.png" width="640" height="360" loading="lazy"
-         alt="A blue outline selects three molecules from a larger candidate set. A green check identifies the true molecule.">
+  <div class="publication-figure-panels" style="--panel-height: 360px">
+    <img src="/images/publications/conformal-metabolite-prediction.png" loading="lazy" alt="">
   </div>
   <figcaption><strong>Figure:</strong> Conformal metabolite prediction set at 90% marginal coverage. The check marks the true molecule.
     <small><a href="https://arxiv.org/html/2603.02460v5#S1.F1">Paper figure 1</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></small>

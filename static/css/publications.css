@@ -39,6 +39,7 @@
 .publication-figure-panels img {
   min-width: 0;
   height: auto;
+  max-height: var(--panel-height, none);
   margin: 0;
 }
 

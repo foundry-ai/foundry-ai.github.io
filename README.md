@@ -80,8 +80,10 @@ paper, set `abstract_heading: "Summary"` under `params`.
 
 Store publication figure images under `static/images/publications/`. Add
 the figure after the abstract, using `<figure class="no-photoswipe">` and
-a `publication-figure-panels` div to group the images. Give each image
-descriptive alt text and put the shared caption in `<figcaption>`.
+a `publication-figure-panels` div to group the images. Set the maximum
+height once on the row, for example with `style="--panel-height: 200px"`.
+Use `loading="lazy" alt=""` on each image and put the shared description
+and any source credits in `<figcaption>`.
 
 Under `params`, set `authors` as a list in citation order, `venue`, and
 `publication_date`. Add `hal_url`, `arxiv_url`, and `publication_url`
